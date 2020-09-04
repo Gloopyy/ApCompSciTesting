@@ -1,2 +1,2 @@
-# ApCompSciTesting
+# ApCompSciOpenCV
 Placeholder
