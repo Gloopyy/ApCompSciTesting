@@ -1,2 +1,2 @@
-# ApCompSciOpenCV
+# OpenCV Python
 Placeholder
