@@ -11,4 +11,5 @@ Script gettings_and_setting.py will open an image, print out the RGB values of t
 
 ## Chapter 5
 Script drawing.py will show multiple drawings using cv2 lines, rectangles, and circles. To run it, use the command:
+
 *python drawing.py*
