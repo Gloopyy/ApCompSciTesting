@@ -19,3 +19,25 @@ def rotate(image, angle, center = None, scale = 1.0):
     rotated = cv2.warpAffine(image, M, (w, h))
 
     return rotated
+
+#Take image, dimensions, and interpolation method
+def resize(image, width = None, height = None, inter = cv2.INTER_AREA):
+    dim = None
+    (h, w) = image.shape[:2]
+
+    if width is None and height is None:
+        return image
+
+    #Resizes if height is given
+    if width is None:
+        r = height / float(h)
+        dim = (int(w * r), height)
+
+    #Resizes if width is given
+    else:
+        r = width / float(w)
+        dim = (width, int(h * r))
+
+    resized = cv2.resize(image, dim, interpolation = inter)
+
+    return resized
