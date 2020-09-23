@@ -19,5 +19,5 @@ Various simple image modification scripts. To run them, use the command:
 
 *python SCRIPTNAME --image IMAGE*
 
-Bitwise does not use the --image argument.
-imutils.py is required for translate.py, rotate.py, & resize.py
+bitwise.py does not use the --image argument.
+imutils.py is required for translate.py, rotate.py, & resize.py.
