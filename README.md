@@ -13,3 +13,11 @@ Script gettings_and_setting.py will open an image, print out the RGB values of t
 Script drawing.py will show multiple drawings using cv2 lines, rectangles, and circles. To run it, use the command:
 
 *python drawing.py*
+
+## Chapter 6
+Various simple image modification scripts. To run them, use the command:
+
+*python SCRIPTNAME --image IMAGE*
+
+Bitwise does not use the --image argument.
+imutils.py is required for translate.py, rotate.py, & resize.py
