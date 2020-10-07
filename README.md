@@ -22,3 +22,10 @@ Various simple image modification scripts. To run them, use the command:
 bitwise.py does not use the --image argument.
 
 imutils.py is required for translate.py, rotate.py, & resize.py.
+
+## Chapter 7
+Histograms and image equalization scripts. To run them, use the command:
+
+*python SCRIPTNAME --image IMAGE*
+
+3d_histogram.py uses optional arguments for size(--size) and bins(--bins)
