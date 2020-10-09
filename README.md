@@ -29,3 +29,8 @@ Histograms and image equalization scripts. To run them, use the command:
 *python SCRIPTNAME --image IMAGE*
 
 3d_histogram.py uses optional arguments for size(--size) and bins(--bins)
+
+## Chapter 8
+Script blurring.py will blur an image in various ways.
+
+*python SCRIPTNAME --image IMAGE*
