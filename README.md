@@ -34,3 +34,13 @@ Histograms and image equalization scripts. To run them, use the command:
 Script blurring.py will blur an image in various ways.
 
 *python SCRIPTNAME --image IMAGE*
+
+## Chapter 9
+A variety of thresholding methods. To run them, use the command:
+
+*python SCRIPTNAME --image IMAGE*
+
+## Chapter 10
+Two edge detection scripts. To run them, use the command:
+
+*python SCRIPTNAME --image IMAGE*
